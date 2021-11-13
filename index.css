@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color:rgba(0, 134, 251, 0.65);
+}
+.navbar{
+    background-color: black;
+    color: white;
+    position:fixed;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    
+}
+.navbar input{
+    margin-right: 20px;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+main{
+    text-align: center;
+}
+.container_1{
+    margin: 30px auto;
+    width: 70%;
+    height: 250px;
+    background-color: antiquewhite;
+
+    border:1px solid black;
+} 
+.container_1 textarea{
+    height: 60px;
+    width: 90%;
+    margin: 5px 20px;
+    outline: none;
+    padding: 20px;
+    font-size: 16px;
+    resize: none;
+}
+
+ 
+.container_1 h3,.container_2 h1{
+    display: flex;
+    justify-content: start;
+    margin-left: 2vw;
+    margin-top: 50px;
+}
+.heading{
+    padding-top: 90px;
+}
+.container_1 button{
+  
+    float: left;
+    margin-left: 2vw;
+    width: 90px;
+    height: 30px;
+    background-color:rgb(0, 255, 200);
+    color: black;
+    font-size: 15px;
+ cursor: pointer;
+    font-weight: bold; 
+}
+.container_2{
+    display: flex;
+    margin: 30px auto;
+    width: 90%;   
+}
+.note{
+    float: left;
+    padding: 10px;
+    width: 240px;
+    margin:0 20px 25px 20px;
+    background-color: rgb(235, 227, 227);
+    border: 1px solid black;
+} 
+.note h3{
+    font-size: 23px;
+} 
+.note p{
+    font-size: 20px;
+} 
+.note button{
+    margin-top: 15px; 
+    width: 100px;
+    height: 30px;
+    background-color:rgb(0, 255, 200);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+ cursor: pointer;   
+}
+.note button:hover,.container_1 button:hover{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer ul{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer ul li{
+    padding: 10px;
+    list-style: none;
+}
+footer i{
+    color: white;
+}
